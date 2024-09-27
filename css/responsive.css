@@ -1,0 +1,39 @@
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+
+/* Larghezza 768px */
+
+@media (max-width:1160px) {   
+    .container {
+        width: 100%;
+    }
+}
+
+
+/* Larghezza 480px */
+@media (max-width:480px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 25px;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%
+    }
+
+    .why-us {
+        background-color: black;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .steps {
+        margin: 0;
+    }
+}
